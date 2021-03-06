@@ -17,38 +17,34 @@
         </div>
       </nav>
 <body>
-<main>
-    <br><br>
-    
-    <div class="container">
-    <h3>Project Gallery</h3>
-    </div>
-
+  <div class="container">
+  <div class="mx-auto w-100"><h3>Project Gallery</h3></div>
+  
   <form class="container">
-  <div class="form-group container bg-light p3 row align-content-lg-center" style="height: 75px;">
-
-      <form name="searchTerm" class="row">              
-      <div class="col-md-6">
-      <input class="form-control form-label form-control-lg" style="margin-top: auto; margin-bottom: auto;" type="text" placeholder="Search projects, name, authors, abstract, tags">
+  <div class="form-row bg-light" name="searchForm">
+    
+      <div class="col-md-6 d-flex justify-content-end">
+      <input type="text" name="searchTerm" class="form-control form-control-lg" placeholder="Search projects, name, authors, abstract, tags">
       </div>
-
-      <div class="col-md-2 d-flex justify-content-auto" style="margin-top: auto; margin-bottom: auto;">
-      Search by:<br><select name="searchType" class="form-control" label="Search By:">
-      <option value="Name">Name</option>
-      <option value="Abstract">Abstract</option>
-      <option value="Authors">Authors</option>
-      <option value="Tags">Tags</option>
-      </select></div>
-
-      <div class="col-md-1 d-flex justify-content-end">
-      <button class="btn btn-lg btn-primary" type="submit" 
-      style="margin-top: auto; margin-bottom: auto;">Submit</button>
-      </div> 
-      </form>
+  <div class="col-md-2 d-flex justify-content-center">
+  <label class="col-form-label form-label">Search By:</label>
+  <select class="form-control form-control-lg" name="searchType">
+  <option value="Name">Name</option>
+  <option value="Abstract">Abstract</option>
+  <option value="Authors">Authors</option>
+  <option value="Tags">Tags</option>
+  </select>
   </div>
-   </form>
+  <div class="col-md-4 d-flex justify-content-auto">
+  <button class="btn btn-lg btn-primary" type="submit" style="margin-top: auto; margin-bottom: auto;">Submit</button>
+  </div> 
+</div>
+  </div>
+</form>
+<br><br>
 
-<section>
+
+  <section>
     <div class="container bg-white">
         <h3>Search Result</h3>
         
