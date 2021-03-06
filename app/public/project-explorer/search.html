@@ -16,32 +16,33 @@
             <a class="btn" href="login.html" type="login">Login</a>
       </nav>
 <body>
-  <div class="mx-auto w-75"><h3>Project Gallery</h3></div>
   <div class="container">
-  <div class="form-row bg-light">
-    
-    <form name="searchTerm">
-      <div class="col-md-12 d-flex justify-content-lg-center">
-      <input type="text" class="form-control form-control-lg" placeholder="Search projects, name, authors, abstract, tags">
+    <h3>Project Gallery</h3>
+    </div>
+
+  <form name="searchTerm" class="container">
+  <div class="form-group container bg-light p3 row align-content-lg-center" style="height: 100px;">
+
+      <div class="row">              
+      <input class="form-control form-label form-control-lg" style="margin-top: auto; margin-bottom: auto;" type="text" placeholder="Search projects, name, authors, abstract, tags">
       </div>
-    </form>
 
-  <div class="col-md-2 d-flex justify-content-auto">
-  <label class="col-form-label form-label">Search By:</label>
-  <select class="form-control form-control-lg" name="searchType">
-  <option value="Name">Name</option>
-  <option value="Abstract">Abstract</option>
-  <option value="Authors">Authors</option>
-  <option value="Tags">Tags</option>
-  </select>
+      <div class="col-4 d-flex justify-content-lg-center">
+      Search by:<br><select name="searchType" class="form-control" label="Search By:">
+      <option value="Name">Name</option>
+      <option value="Abstract">Abstract</option>
+      <option value="Authors">Authors</option>
+      <option value="Tags">Tags</option>
+      </select></div>
+
+      <div class="col-4">
+      <button class="btn btn-lg btn-primary" type="submit" 
+      style="margin-top: auto; margin-bottom: auto;">Submit</button>
+      </div> 
+      </div>
   </div>
-  
-  <div class="col-md-4 d-flex justify-content-end">
-  <button class="btn btn-lg btn-primary" type="submit" style="margin-top: auto; margin-bottom: auto;">Submit</button>
-  </div> 
+   </form>
 
-</div>
-</div>
 <br><br>
 
 
