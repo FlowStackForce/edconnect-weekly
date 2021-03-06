@@ -49,46 +49,44 @@
        </div>
     <br><br>
     <section>
-
-        <form>
-            <div class="form-group">
-            <div class="mx-auto" style="width: 75%;">
-            <div class="row">  
-             
+            <div class="container">
             <div class="row">
-            <h3>Edit Project</h3><br><br>
-            </div>
-            <div class="col-md-10 d-md-flex justify-content-md-center">
+            <div class="col">
+            <h3>Edit Project</h3><br><br></div>
+            <div class="col">
             <h3>Manage Project</h3></div>
-
-            <div class="row">
-            Project Name:<input class="form-control" placeholder="Project 1" class="form-control" type="text" name="name" label="First Name:">
+            </div>
             </div>
 
-            <div class="col-md-8" style="padding-left: 19%;">
-                <input type="text" class="form-control" name="projectFile" placeholder="click to open file browser">
+            <form class="container">
+            <div class="row">  
+            
+            <div class="col">
+            Project Name:<br><input class="form-control" placeholder="Project 1" class="form-control" type="text" name="name" label="First Name:">
             </div>
+
+            <div class="col">
+                <br><input type="text" class="form-control" name="projectFile" placeholder="click to open file browser">
+            </div>
+
             <div>        
-                <button class="form-control">browse</button>
+              <br> <button class="form-control">browse</button><br><br>
             </div>
 
-            </div>
-            </div>
             </div>
         </form>
 
-        <form>    
-            <div class="form-group">
-            <div class="mx-auto" style="width: 75%;">
+        <form>   
+            <div class="container"> 
             <div class="row">
            
-            <div class="row">
+            <div class="col">
             Project Abstract:<textarea type="text" class="form-control form-control-lg" name="abstract" label="Project Abstract:"></textarea>
             </div>
 
-            <div class="row" style="padding-left: 18%;">
-            <div class="card" style="width: 35em;">
-                <div class="card-header">
+            <div class="col">
+            <div class="card">
+            <div class="card-header">
                   Projec file
                 </div>
                 <div class="card-body">
@@ -96,7 +94,7 @@
                   <p class="card-text">No files uploaded yet</p>
                 </div>
               </div>
-
+              </div>
 
 
             </div>
@@ -105,38 +103,34 @@
         </form>
 
         <form>    
-            <div class="form-group">
-            <div class="mx-auto" style="width: 75%;">
-            <div class="row">
+          <div class="container">
+          <div class="row">
         
-            <div class="row">
+            <div class="col-6">
             Authors:<input type="text" class="form-control form-control-lg" name="authors" label="Authors:">
             </div>
             </div>
             </div>
-        </div>
-        </form>
+        </form><br>
 
         <form>    
-            <div class="form-group">
-            <div class="mx-auto" style="width: 75%;">
+            <div class="container">
             <div class="row">
         
-            <div class="row">
+            <div class="col-6">
             Tag(s):<br><input type="text" class="form-control form-control-lg" placeholder="#web" name="tags" label="Tag(s):">
             </div>
 
             </div>
             </div>
             </div>
-        </form>
+        </form><br>
             
         <form>    
-            <div class="form-group">
-            <div class="mx-auto" style="width: 75%;">
+            <div class="container">
             <div class="row">
 
-                <div class="row">
+                <div class="col-1">
                 <button class="btn btn-primary" type="submit">save</button>
                </div>
         </form>
